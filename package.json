@@ -1,0 +1,22 @@
+{
+	"name": "@sagan-software/bs-scatter",
+	"version": "0.1.0",
+	"scripts": {
+		"clean": "bsb -clean-world",
+		"build": "bsb -make-world",
+		"start": "bsb -make-world -w"
+	},
+	"keywords": [
+		"BuckleScript"
+	],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"bs-platform": "^3.1.4"
+	},
+	"peerDependencies": {
+		"@sagan-software/bs-eos": "sagan-software/bs-eos",
+		"bs-webapi": "^0.10.0",
+		"eosjs": "^15.0.3"
+	}
+}
